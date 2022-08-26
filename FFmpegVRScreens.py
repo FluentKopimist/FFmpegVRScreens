@@ -1,16 +1,13 @@
 
-from inspect import unwrap
 import os
-from ssl import create_default_context
 import ffmpeg
-import glob
 
 createdFiles = []
 
 debug = 0
 
 def main():
-    getframes("epcot.webm", isVR=True)
+    getframes("epcot.webm", isVR=True) # just a random vr video i found on youtube.
 
 def getframes(videoFile, isVR):
     

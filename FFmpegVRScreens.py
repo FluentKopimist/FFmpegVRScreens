@@ -7,7 +7,8 @@ createdFiles = []
 debug = 0
 
 def main():
-    getframes("epcot.webm", isVR=True) # just a random vr video i found on youtube.
+    getframes("epcot.webm", isVR=True) # just a random vr video i found on youtube. originally i was using an mp4 file, but now im trying to understand why
+                                       # ffmpeg isnt working on a .webm file.
 
 def getframes(videoFile, isVR):
     
